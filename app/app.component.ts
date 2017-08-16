@@ -1,8 +1,10 @@
 import {Component} from "@angular/core";
 import {SocketIO} from "nativescript-socketio";
 
-let jsApp = require('./js/scalajs-fastopt.js'); // 2.9 MB
+// let jsApp = require('./js/scalajs-fastopt.js'); // 2.9 MB
 // let jsApp = require('./js/scalajs-opt.js'); // 550 KB
+// let jsApp = require('./js/scalajs-fastopt-without-deps.js'); // 860 KB
+let jsApp = require('./js/scalajs-opt-without-deps.js'); // 180 KB
 
 @Component({
     selector: "my-app",
